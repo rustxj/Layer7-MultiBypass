@@ -94,7 +94,7 @@ function INIT(workerData) {
 
     if (l7.mode == 'raw') {
         ATTACK = function () {
-            let dua = flooder.randomUA;
+            let dua = 'aaaaaa';
             STATE.running = true; // From now and so, script considered running;
             STATE.expire = Date.now() + workerData.duration;
 
